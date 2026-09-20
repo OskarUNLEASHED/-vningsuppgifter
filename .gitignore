@@ -1,6 +1,9 @@
 # Private resources, assignment prompts, and book scans
 _private_resources/
 private/
+data/
+*.csv
+*.xlsx
 *.pdf
 *.docx
 *.doc
@@ -11,6 +14,7 @@ __pycache__/
 *$py.class
 .ipynb_checkpoints/
 */.ipynb_checkpoints/*
+*.joblib
 
 # Environment and secrets
 .env
